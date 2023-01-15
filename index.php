@@ -12,7 +12,7 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 class="bg-red-400">hello world</h1>
+    <h1 class="bg-green-600">hello world</h1>
     <form action="includes/calculator.inc.php" method="post" >
         <input type="submit" value="calculate">
     </form>
