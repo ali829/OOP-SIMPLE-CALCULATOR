@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer base {
+    input[type="number"] , select{
+        @apply rounded-sm w-24 text-xl text-white appearance-none border-none shadow-md backdrop-blur-sm bg-white/10 font-mono outline-none p-1;
+    }
+
+    input[type="submit"]{
+        @apply   rounded-sm  text-xl text-white appearance-none border-none shadow-md backdrop-blur-sm bg-white/10 font-mono outline-none px-3 py-1;
+    }
+}
